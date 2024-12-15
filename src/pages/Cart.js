@@ -168,7 +168,7 @@ import { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import Payment from './Payment';
+
 export default function Cart({ cartItems, setCartItems }) {
   const [complete, setComplete] = useState(false);
   const [loading, setLoading] = useState(false);
